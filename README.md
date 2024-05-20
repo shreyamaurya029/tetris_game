@@ -1,22 +1,101 @@
-# C++ Tetris Game using raylib
+# Tetris Game
 
-🕹️🐍🎮 This GitHub repository is home to the full source code for a Tetris game built with the C++ programming language and the raylib library. 💻🎨🎧 The game uses various raylib functions for graphics, input handling, and audio and can be played on Windows, macOS, and Linux computers. 🔍📖 The code is well-structured and easy to read, making it a valuable resource for aspiring game developers looking to learn about raylib game programming.
-
-If you want to learn how to build your own Tetris game with raylib, check out the accompanying <a href="https://youtu.be/wVYKG_ch4yM">Video Tutorial on YouTube.</a> 🎬👨‍💻 The tutorial guides you through every line of code, explaining the logic behind it and demonstrating how it affects the game. You'll discover how to set up the game window, create the Grid and block classes, add collision detection, and implement sound effects. By the end of the tutorial, you'll have a fully functional Tetris game that you can play and modify however you like. ☕ So, grab a cup of coffee and let's dive into the exciting world of game development with raylib! 🚀
-
-# Video Tutorial
 
 <p align="center">
-  <img src="preview.jpg" alt="" width="960">
+  <img src="preview.jpg" alt="" width="800">
 </p>
 
-<p align="center">
-🎥 <a href="https://youtu.be/wVYKG_ch4yM">Video Tutorial on YouTube</a>
-</p>
+This is a Tetris game developed using C++ and the Raylib library.
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.educ8s.tv">My Website</a> | <br>
-</p>
+## Author
+
+**Shreya Maurya**
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Controls](#controls)
+- [License](#license)
+
+## Introduction
+
+This project is a classic Tetris game implemented in C++ using the Raylib library for graphics. The game features the traditional Tetris gameplay with intuitive controls and a simple user interface.
+
+## Features
+
+- Classic Tetris gameplay
+- Smooth and responsive controls
+- Simple and clean graphics using Raylib
+- Score tracking
+
+## Installation
+
+### Prerequisites
+
+- C++ compiler (GCC, Clang, MSVC, etc.)
+- [Raylib](https://www.raylib.com/) library
+- [Emscripten](https://emscripten.org/) (if you want to deploy to the web)
+
+### Building from Source
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/tetris-game.git
+    cd tetris-game
+    ```
+
+2. **Build the project:**
+
+    If you're using CMake:
+
+    ```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ```
+
+    If you're using a Makefile:
+
+    ```bash
+    make
+    ```
+
+### Running the Game
+
+After building the project, you can run the executable:
+
+```bash
+./tetris-game
+
+
+```
+## Usage
+
+### Playing the Game
+
+- Launch the game using the instructions in the [Installation](#installation) section.
+- The game starts immediately. Use the controls described below to play.
+
+
+### Controls
+
+- **Left Arrow**: Move piece left
+- **Right Arrow**: Move piece right
+- **Down Arrow**: Move piece down faster
+- **Up Arrow**: Rotate piece
+- **Spacebar**: Drop piece instantly
+
+- 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
