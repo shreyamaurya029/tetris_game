@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="preview.jpg" alt="" width="800">
+  <img src="[preview.jpg](https://github.com/shreyamaurya029/tetris_game/blob/main/Screenshot%202024-05-22%20at%2011.29.59%20PM.png)" alt="" width="800">
 </p>
 
 This is a Tetris game developed using C++ and the Raylib library.
