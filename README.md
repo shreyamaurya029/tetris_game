@@ -1,10 +1,10 @@
 # Tetris Game
 
 
-<p align="center">
-  ![Tetris Game](https://github.com/shreyamaurya029/tetris_game/blob/main/Screenshot%202024-05-22%20at%2011.29.59%20PM.png)
 
-</p>
+![Tetris Game](https://github.com/shreyamaurya029/tetris_game/blob/main/Screenshot%202024-05-22%20at%2011.29.59%20PM.png)
+
+
 
 This is a Tetris game developed using C++ and the Raylib library.
 
